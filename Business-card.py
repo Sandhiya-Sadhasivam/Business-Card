@@ -173,7 +173,7 @@ if selected == "Upload & Extract":
             st.markdown("#     ")
             with st.spinner("Please wait processing image..."):
                 st.set_option('deprecation.showPyplotGlobalUse', False)
-                saved_img = os.getcwd()+ "\\" + "uploaded_cards"+ "\\"+ uploaded_card.name
+                saved_img = os.getcwd()+ "/" + "uploaded_cards"+ "/"+ uploaded_card.name
                 image = cv2.imread(saved_img)
                 res = reader.readtext(saved_img)
                 st.markdown("### Image Processed and Data Extracted")
