@@ -118,7 +118,7 @@ if selected == "Upload & Extract":
             with open(filepath,"r") as f:
                 return json.load(f)
             
-        lottie_coding = load_lottiefile("lottiefiles\scan.json")
+        lottie_coding = load_lottiefile("./lottiefiles/scan.json")
 
         st_lottie(
             lottie_coding,
