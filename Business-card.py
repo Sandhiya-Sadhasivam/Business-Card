@@ -180,7 +180,7 @@ if selected == "Upload & Extract":
                 st.pyplot(image_preview(image,res))  
 
          #easy OCR
-        saved_img = os.getcwd()+ "\\" + "uploaded_cards"+ "\\"+ uploaded_card.name
+        saved_img = os.getcwd()+ "/" + "uploaded_cards"+ "/"+ uploaded_card.name
         result = reader.readtext(saved_img,detail = 0,paragraph=False)
 
          # CONVERTING IMAGE TO BINARY TO UPLOAD TO SQL DATABASE
