@@ -87,7 +87,7 @@ if selected == "Home":
             with open(filepath,"r") as f:
                 return json.load(f)
             
-        lottie_coding = load_lottiefile("lottiefiles\home-anim.json")
+        lottie_coding = load_lottiefile("./lottiefiles/home-anim.json")
 
         st_lottie(
             lottie_coding,
