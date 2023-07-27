@@ -1,1 +1,2 @@
- apt-get dependency libgl
+freeglut3-dev
+libgtk2.0-dev
